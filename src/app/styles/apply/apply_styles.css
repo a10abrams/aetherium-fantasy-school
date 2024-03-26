@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Lato:wght@300&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+.english-font {
+    font-family: 'IM Fell English', serif;
+}
+
+.apply-spotlight {
+    width: 100%;
+    height: 450px;
+    background-color: blanchedalmond;
+}
+
+.apply-container {
+    margin: 2em 2em 5em 2em;
+}
+
+.apply-types-container {
+    display: grid;
+    justify-content: center;
+    grid-gap: 3em;
+}
+
+.apply-types-blurb {
+    text-align: center;
+    font-size: 3em;
+    margin: 2em;
+}
+
+#dream-apply {
+    grid-column: 1;
+}
+
+.apply-method {
+    background-color: pink;
+    height: 295px;
+    width: 295px;
+}
+
+#dream-sense {
+    padding: 4em;
+}
+
+#signal-sense {
+    padding: 4.5em;
+}
+
+#summon-sense {
+    padding: 3em;
+}
+
+.learn-more-click {
+    display: none;
+}
+
+#dream-apply:hover .learn-more-click, #beacon-apply:hover .learn-more-click, #summoning-apply:hover .learn-more-click {
+    display: block;
+}
+
+.apply-title-method {
+    font-size: 3em;
+}
+
+#dream-apply:hover .apply-title-method, #beacon-apply:hover .apply-title-method, #summoning-apply:hover .apply-title-method {
+    transform: translateY(-20px);
+}
+
+#beacon-apply {
+    grid-column: 2;
+}
+
+#summoning-apply {
+    grid-column: 3;
+}
