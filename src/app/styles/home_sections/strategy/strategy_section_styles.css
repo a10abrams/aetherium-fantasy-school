@@ -1,0 +1,104 @@
+#container-wt {
+    padding: 12em 2em 0em 2em;
+    background-image: linear-gradient(white, #b2ccae);
+}
+
+#heading-wt {
+    display: block;
+    text-align: center;
+}
+
+.heading-blurb-wt {
+    padding: 0;
+    font-style: italic;
+    margin: 2em 10em;
+    text-align: center;
+}
+
+#weaponry-content-thirds {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+.wt-link-spotlight {
+    position: relative;
+    display: inline-block;
+    transition: box-shadow 0.5s ease-in-out
+}
+
+.wt-link-spotlight:hover .caption-spotlight-wt {
+    display: block;
+}
+
+#left-content-container {
+    grid-column: 1;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+#wt-spotlight-1, #wt-spotlight-2, #wt-spotlight-3 {
+    width: 96%;
+    height: 430px;
+    display: block;
+}
+
+.caption-spotlight-wt {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 160px 80px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s ease;
+    z-index: 1;
+    display: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wt-course-name {
+    text-decoration: underline;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.wt-blurb {
+    font-size: 16px;
+    text-decoration: none !important;
+    padding: 1em 0em 1em 0em;
+}
+
+#left-content-container:hover .caption-spotlight-wt {
+    opacity: 1;
+    bottom: 0;
+}
+
+#center-content-container {
+    grid-column: 2;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#center-content-container:hover .caption-spotlight-wt {
+    opacity: 1;
+    bottom: 0;
+}
+
+#right-content-container {
+    grid-column: 3;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#right-content-container:hover .caption-spotlight-wt {
+    opacity: 1;
+    bottom: 0;
+}
