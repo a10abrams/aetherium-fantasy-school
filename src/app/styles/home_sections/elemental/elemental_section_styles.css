@@ -1,0 +1,133 @@
+.container-elem {
+    position: relative;
+}
+
+#element-spread-grid-container {
+    margin: 5em;
+    display: grid;
+}
+
+#heading-elem {
+    display: grid;
+    margin-bottom: 6em;
+}
+
+.school-of-elem {
+    font-size: 2.7em;
+    margin: auto;
+    margin-left: 2em;
+}
+
+.heading-blurb-elem {
+    display: block;
+    margin: auto;
+    grid-column: 2;
+    padding-left: 10em;
+    font-style: italic;
+    width: 85%;
+}
+
+#elem-spotlight-1 {
+    height: 583px;
+    width: 500px;
+    position: relative;
+}
+
+.elem-course-link {
+    display: inline-block;
+}
+
+#large-content-elem {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 3em;
+    width: 500px;
+}
+
+.elem-course-caption{
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.elem-course-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.elem-course-desc {
+    display: none;
+}
+
+.elem-course-link:hover .elem-course-desc {
+    display: block;
+}
+
+#elem-top-duo-content, #elem-bottom-duo-content {
+    position: relative;
+}
+
+.elem-course-caption-med{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 5px;
+    left: 0;
+    color: white; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    width: 288px; 
+    z-index: 1;
+}
+
+#med-content-duo-elem {
+    grid-column: 2;
+    display: grid;
+}
+
+#elem-spotlight-2, #elem-spotlight-3 {
+    height: 288px;
+    width: 288px;
+    position: relative;
+}
+
+
+.med-duo-course-link:hover .elem-course-desc {
+    display: block;
+}
+
+#course-link-list {
+    grid-column: 3;
+    width: 10em;
+    height: 585px;
+}
+
+.elem-course-link-container {
+    padding: 1em;
+}
+
+.list-elem-course-link {
+    text-decoration: none;
+    color: black;
+}
+
+.elem-course-link-container:hover {
+    background-color: #e19c18;
+}
+
+.list-elem-course-link:visited {
+    text-decoration: none;
+}
+
+.list-elem-course-blurb {
+    display: block;
+}
+
+.course-name-underline {
+    text-decoration: underline;
+}
