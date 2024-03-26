@@ -1,0 +1,94 @@
+#container-cel {
+    background-color: black !important;
+    color: white !important;
+    padding: 2em 4em 6em 4em;
+    display: grid;
+}
+
+#grid-item-1 {
+    transform: translateX(8em);
+}
+
+#grid-item-2 {
+    transform: translateY(-5em);
+    grid-column: 2;
+    display: flex;
+    margin: auto;
+}
+
+#grid-item-3 {
+    grid-column: 3;
+    transform: translateX(-8em);
+}
+
+#grid-item-4 {
+    padding-top: 5em;
+}
+
+#grid-item-5 {
+    padding: 5em 0 5em 0;
+}
+
+#grid-item-6 {
+    padding-top: 5em;
+}
+
+#grid-item-7 {
+    transform: translateX(8em);
+}
+
+#grid-item-8 {
+    display: flex;
+    margin: auto;
+    transform: translateY(5em);
+}
+
+#grid-item-9 {
+    transform: translateX(-8em);
+}
+
+#grid-img-1,  #grid-img-4, #grid-img-6, #grid-img-7, #grid-img-8, #grid-img-9 {
+    height: 196px;
+    width: 196px;
+}
+
+#grid-img-2, #grid-img-3 {
+    height: 145px;
+    width: 145px;
+}
+
+#grid-img-1, #grid-img-2, #grid-img-3, #grid-img-4, #grid-img-6, #grid-img-7, #grid-img-8, #grid-img-9 {
+    opacity: 0.8;
+}
+
+#heading-cel {
+    text-align: center;
+}
+
+#cel-school-hover {
+    text-decoration: none;
+}
+
+#cel-school-hover:hover, #cel-school-hover:visited:hover {
+    color: #E19C18;
+}
+
+#cel-school-hover:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.heading-blurb-cel {
+    display: block;
+    margin: 2em 10em;
+    font-style: italic;
+}
+
+#link-inline-courses {
+    color: white;
+    text-decoration: none;
+}
+
+#link-inline-courses:hover {
+    color: #E19C18
+}
