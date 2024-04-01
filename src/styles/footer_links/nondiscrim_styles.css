@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/tengwar-sindarin');
+@import url('https://fonts.cdnfonts.com/css/harald-runic');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Lato:wght@300&display=swap');
+
+.tengwar {
+    font-family: 'Tengwar Sindarin', sans-serif;
+}
+
+.runes {
+    font-family: 'Harald Runic', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.dropdown-container {
+    float: right;
+}
+  
+.dropdown-label {
+    margin-right: 0.5em;
+}
+  
+.dropdown-select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.dropdown-option {
+    background-color: #fff;
+    color: #333;
+}
+
+.nondiscrim-container {
+    margin: 2em 15em;
+}
+
+.nondiscrim-statement {
+    margin: 3em 0;
+}
+
+p {
+    margin: 1em 0em;
+}
+
+#school-slogan {
+    text-align: center;
+    margin: 2em 0;
+}
+
+#prof-signatures {
+    width: 80%;
+    height: 110px;
+    display: block;
+    margin: 2em auto;
+}
