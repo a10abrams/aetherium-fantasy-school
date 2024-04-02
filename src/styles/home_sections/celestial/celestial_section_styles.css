@@ -65,11 +65,12 @@
 
 #heading-cel {
     text-align: center;
+    color: white !important;
 }
 
 #cel-school-hover {
     text-decoration: none;
-    color: white;
+    color: white !important;
 }
 
 #cel-school-hover:hover, #cel-school-hover:visited:hover {
