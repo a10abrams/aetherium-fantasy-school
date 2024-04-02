@@ -1,10 +1,10 @@
 'use client'
 
 import { useEffect, useState, SetStateAction } from 'react';
-import Navbar from "@/components/navigation/navbar";
-import Footer from "@/components/navigation/footer";
-import TopButton from "@/components/buttons/to_top";
-import Dropdown from '@/components/reveal/dropdown';
+import Navbar from "../../..//components/navigation/navbar";
+import Footer from "../../..//components/navigation/footer";
+import TopButton from "../../..//components/buttons/to_top";
+import Dropdown from '../../..//components/reveal/dropdown';
 import '../../../styles/footer_links/safety_agree_styles.css';
 
 export default function SafetyAgree () {
