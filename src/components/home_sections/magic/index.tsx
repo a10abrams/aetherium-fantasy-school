@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import Reveal from '@/components/reveal/reveal';
+import Reveal from '../../../components/reveal/reveal';
 import { Lato, IM_Fell_English } from 'next/font/google';
 import spotlight_1 from '../../../../public/spotlight_magic_1.jpg'
 import spotlight_2 from '../../../../public/spotlight_magic_2.png'
