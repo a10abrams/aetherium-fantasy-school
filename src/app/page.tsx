@@ -9,7 +9,6 @@ import Strategy from "../components/home_sections/strategy";
 import Celestial from "../components/home_sections/celestial";
 import Elemental from "../components/home_sections/elemental";
 import Footer from "../components/navigation/footer";
-import Testimonials from "../components/home_sections/testimonials";
 import TopButton from "../components/buttons/to_top";
 
 export default function Home() {
