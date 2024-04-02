@@ -75,7 +75,7 @@ const Navbar = () => {
                     <Logo/> 
                 </div>
                 <div id = 'apply-container'>
-                    <Link href='#' id='apply-btn'>
+                    <Link href='/apply' id='apply-btn'>
                         Apply
                     </Link>
                 </div>
