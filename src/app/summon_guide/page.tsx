@@ -1,7 +1,7 @@
 'use client'
 
-import Reveal from '@/components/reveal/reveal';
-import AnimatedLogo from '@/components/reveal/fullscreen_logo';
+import Reveal from '../../components/reveal/reveal';
+import AnimatedLogo from '../../components/reveal/fullscreen_logo';
 import '../../styles/apply/methods_apply_styles.css';
 
 export default function SummonApply () {
