@@ -3,9 +3,9 @@
 import { SetStateAction, useState } from 'react';
 import Image from 'next/image';
 import Navbar from "../../../components/navigation/navbar";
-import Footer from "../../..//components/navigation/footer";
-import TopButton from "../../..//components/buttons/to_top";
-import Dropdown from '../../..//components/reveal/dropdown';
+import Footer from "../../../components/navigation/footer";
+import TopButton from "../../../components/buttons/to_top";
+import Dropdown from '../../../components/reveal/dropdown';
 import Signatures from '../../../../public/align_prof_signatures.png';
 import '../../../styles/footer_links/nondiscrim_styles.css';
 
