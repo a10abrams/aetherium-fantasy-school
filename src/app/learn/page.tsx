@@ -5,9 +5,9 @@ import { useRouter } from 'next/navigation';
 import Image from "next/image";
 import "../../styles/about/about_styles.css";
 import Link from "next/link";
-import Navbar from "@/components/navigation/navbar";
+import Navbar from "../../components/navigation/navbar";
 import { Lato, IM_Fell_English } from 'next/font/google';
-import Footer from "@/components/navigation/footer";
+import Footer from "../../components/navigation/footer";
 import '../../styles/learn/learn_section_styles.css'
 import IgnisHeadshot from '../../../public/spotlight_ignis_flameheart.png';
 import GarrickHeadshot from '../../../public/spotlight_garrick_ironfist.png';
