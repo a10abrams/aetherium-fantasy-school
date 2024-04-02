@@ -25,7 +25,6 @@ export default function Home() {
         <Celestial/>
         <div id = "gradient-2"></div>
         <Elemental/>
-        <Testimonials/>
      </main>
      <Footer/>
      </>
