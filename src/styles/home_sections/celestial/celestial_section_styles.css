@@ -69,6 +69,7 @@
 
 #cel-school-hover {
     text-decoration: none;
+    color: white;
 }
 
 #cel-school-hover:hover, #cel-school-hover:visited:hover {
