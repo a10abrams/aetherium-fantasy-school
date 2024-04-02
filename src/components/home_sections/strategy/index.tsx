@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import Reveal from '@/components/reveal/reveal';
+import Reveal from '../../../components/reveal/reveal';
 import { Lato, IM_Fell_English } from 'next/font/google';
 import '../../../styles/home_sections/strategy/strategy_section_styles.css';
 import wt_spotlight_1 from '../../../../public/spotlight_weapons_tactics_1.jpg'
