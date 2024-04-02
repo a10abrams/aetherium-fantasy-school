@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Lato:wght@300&display=swap');
+
+.english {
+    font-family: 'IM Fell English', serif;
+}
+
+.lato {
+    font-family: 'Lato', serif;
+}
+
+.none-type-spotlight-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 450px;
+    overflow: hidden;
+}
+
+#admissions-spotlight-img {
+    transform: translateY(-13em);
+}
+
+#none-type-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.none-type-content {
+    margin: 2em 14em;
+    line-height: 1.6;
+}
+
+p {
+    text-align: center;
+    margin: 1em 0em;
+}
+
+.embed-link-none {
+    text-decoration: underline dotted;
+
+}
+
+.embed-link-none:hover {
+    color: #e19c18;
+}
