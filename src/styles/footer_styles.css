@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Lato:wght@300&display=swap');
-
 .footer-container {
     display: grid;
     background-color: aliceblue;
@@ -41,4 +39,14 @@
 
 .footer-right-content, .footer-left-content {
     display: grid;
+}
+
+#gh-cat {
+    height: 24px;
+    width: 24px;
+    float: right;
+}
+
+#gh-cat:hover {
+    opacity: 0.5;
 }
