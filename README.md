@@ -1,5 +1,5 @@
 # Aetherium
-Welcome to Aetherium! This project is a creative endeavor combining web design, copywriting, and TTRPGs (table-top role-playing games). This site serves to be the landing page for anyone interested in &#10024; *Attending an arcane university.* &#10024;
+Welcome to Aetherium! This project is a creative endeavor combining web design, copywriting, and TTRPGs (table-top role-playing games). This site serves to be the landing page for anyone interested in &#10024; *attending an arcane university.* &#10024;
 
 ## Table of Contents
 
